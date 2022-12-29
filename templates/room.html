@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <title>{{ room }}</title>
+</head>
+<body>
+  <h1>{{ room }}</h1>
+  <div id="messages"></div>
+  <form id="message-form">
+    <input type="text" id="message" autocomplete="off">
+    <button type="submit">Send</button>
+  </form>
+  <script defer src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script defer src="/static/js/room.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Room</title>
+  </head>
+  <body>
+    <h1>Welcome, {{ username }}</h1>
+    <form id="join-room-form" method="post">
+      <label for="room-select">Existing rooms:</label>
+      <select id="room-select" name="room-name">
+      </select>
+      <input type="submit" value="Join Room">
+  </form>
+    <form id="create-room-form" method="post">
+      <label for="room-name">Room Name:</label>
+      <input type="text" id="room-name" name="room-name">
+      <input type="submit" value="Create Room">
+    </form>
+    <script defer src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  <script defer src="/static/js/create-room.js"></script>
+  </body>
+</html>
