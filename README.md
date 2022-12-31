@@ -11,5 +11,7 @@ pip install flask flask-socketio
 ```
 
 ## Running the application
-`python3 app.py`
-Naviate to `http://127.0.0.1:5000/` or `http://localhost:5000`
+```
+python3 app.py
+```
+Naviate to http://127.0.0.1:5000/ or http://localhost:5000 to use the app.
