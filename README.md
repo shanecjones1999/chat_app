@@ -4,9 +4,9 @@ This is a simple chat app using Flask and Socketio for real-time communication b
 (either an existing room or create their own) to chat.
 
 ## Installation
-`git clone https://github.com:shanecjones1999/chat_app.git
+```git clone https://github.com:shanecjones1999/chat_app.git
 cd chat_app
-pip install flask flask-socketio`
+pip install flask flask-socketio```
 
 ## Running the application
 `python3 app.py`
